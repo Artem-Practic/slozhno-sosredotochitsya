@@ -17,7 +17,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 5vw;
   padding: 10px;
-  /* height: 100vh; */
+  height: 100vh;
   min-height: 668px;
 }
 

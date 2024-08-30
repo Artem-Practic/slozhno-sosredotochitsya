@@ -70,9 +70,6 @@
   border-bottom: 1px solid var(--accent-color);
 }
 
-.page.theme_dark .main {
-  background-color: var(--bg-color);
-}
 
 .page.theme_dark .section {
   color: var(--main-text-color);
@@ -109,10 +106,6 @@
 
 .page.theme_dark .gallery__title {
   color: var(--accent-text-color);
-}
-
-.page.theme_dark .footer {
-  background-color: var(--bg-color);
 }
 
 .page.theme_dark .footer__title {

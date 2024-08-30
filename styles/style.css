@@ -251,6 +251,7 @@
   padding: 10px;
   height: 100vh;
   min-height: 668px;
+  background-color: var(--bg-color);
 }
 
 .footer__title {

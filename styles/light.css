@@ -11,9 +11,7 @@
   --title-color: #ffc2e6;
   --main-text-color: #353430;
   --menu-button-hover: #32312d66;
-}
 
-.page.theme_light {
   background-image: url(../images/cover-image-light.png);
   background-color: var(--bg-color);
 }

@@ -5,9 +5,6 @@
   background-image: url(../images/cover-image.png);
   background-repeat: no-repeat;
   background-position: center top;
-  /* background-size: 1080px 670px; */
-  /* background-size: 288vw 100.299vh; */
-  /* background-size: 288vw 670px; */
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--bg-color);
@@ -72,7 +69,6 @@
   grid-row-end: 4;
   justify-self: end;
   align-self: center;
-
   font-size: var(--main-text-size);
   font-weight: 700;
   line-height: 23.4px;
@@ -270,7 +266,6 @@
 
 @media (375px < width <= 768px) {
   .header__decor-element {
-    /*calc(15px + (100vw - 700px) * (15 - 30) / (700 -  1000))*/
     top: calc(12px + (100vw - 375px) * (12 - 22) / (375 - 768));
     right: calc(37px + (100vw - 375px) * (37 - 46) / (375 - 768));
   }
@@ -278,13 +273,6 @@
 
 /* Стили  при ширине окна просмотра >= 768px */
 @media (min-width: 768px) {
-  .page {
-    /* background-size: 213% 77.5%; */
-    /* background-size: 1648px 1025px; */
-    /* background-size: 214.58vw 100.098vh; */
-    /* background-size: 214.58vw 1025px; */
-  }
-
   .header {
     padding: 20px;
   }
@@ -304,7 +292,6 @@
     right: 46px;
   }
 
-  /* 172px */
   .header__theme-menu {
     margin-top: 17.4vw;
   }
@@ -403,12 +390,6 @@
 }
 
 @media (min-width: 1024px) {
-  .page {
-    /* background-size: 1231px 768px; */
-    /* background-size: 120.21vw 100vh; */
-    /* background-size: 120.21vw 768px; */
-  }
-
   .header__theme-menu {
     margin-top: 0;
     justify-self: center;
@@ -462,10 +443,3 @@
     margin-bottom: 314px;
   }
 }
-
-/* @media (prefers-color-scheme: light) {
-  .page  {
-    background-image: url(../images/cover-image-light.png);
-    background-color: var(--bg-color);
-  }
-}  */

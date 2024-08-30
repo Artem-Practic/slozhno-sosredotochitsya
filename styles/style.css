@@ -6,8 +6,8 @@
   background-repeat: no-repeat;
   background-position: center top;
   /* background-size: 1080px 670px; */
-  /* background-size: 288vw 100.299vh; */
-  background-size: 288vw 670px;
+  background-size: 288vw 100.299vh;
+  /* background-size: 288vw 670px; */
   background-attachment: fixed;
   background-color: var(--bg-color);
 }
@@ -280,8 +280,8 @@
   .page {
     /* background-size: 213% 77.5%; */
     /* background-size: 1648px 1025px; */
-    /* background-size: 214.58vw 100.098vh; */
-    background-size: 214.58vw 1025px;
+    background-size: 214.58vw 100.098vh;
+    /* background-size: 214.58vw 1025px; */
   }
 
   .header {
@@ -404,8 +404,8 @@
 @media (min-width: 1024px) {
   .page {
     /* background-size: 1231px 768px; */
-    /* background-size: 120.21vw 100vh; */
-    background-size: 120.21vw 768px;
+    background-size: 120.21vw 100vh;
+    /* background-size: 120.21vw 768px; */
   }
 
   .header__theme-menu {

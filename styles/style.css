@@ -462,3 +462,10 @@
     margin-bottom: 314px;
   }
 }
+
+/* @media (prefers-color-scheme: light) {
+  .page  {
+    background-image: url(../images/cover-image-light.png);
+    background-color: var(--bg-color);
+  }
+}  */

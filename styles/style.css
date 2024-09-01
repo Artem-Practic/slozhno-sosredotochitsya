@@ -159,10 +159,6 @@
   font-size: inherit;
 }
 
-.title-decor {
-  background-color: var(--accent-color);
-}
-
 .section__elem-title {
   color: var(--accent-text-color);
   font-weight: 700;
